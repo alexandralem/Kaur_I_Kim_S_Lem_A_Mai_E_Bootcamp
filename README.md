@@ -5,9 +5,9 @@
 <h1 text-align="centre">Crear</h1>
 We are a start-up marketing agency that beleive in going "to infinity and beyond" the imagination. We are not another agency, we believe in our clients' dream and determined to connect their idea to their audience. 
 
-Our mission is to envolop the meaning of creare into our works. Bretahe our customer's vision with new life. We beleive in tuning in on styles beyond imaginary boundaries. 
+<br>Our mission is to envolop the meaning of creare into our works. Breathe our customer's vision with new life. We beleive in tuning in on styles beyond imaginary boundaries. 
 We dont want you to take glance at our work. We want you to feel it. 
-So, Stop daydreaming and Consult in us. 
+<br>So, Stop daydreaming and Consult in us. 
 We create your DREAM, CONTENT, FUTURE.
 
 
