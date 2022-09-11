@@ -1,5 +1,5 @@
 <p>
-<img src="images/banner.jpg" width="100% style="max-width:100%;">
+<img src="images/banner.png" width="100% style="max-width:100%;">
 </p>
 
 <h1 text-align="centre">Crear</h1>
