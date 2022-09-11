@@ -35,8 +35,8 @@ ___________________________________________ */
     body {
         margin: 0;
         padding: 0;
-        color: #000;
-        font-family: 'Roboto', sans-serif;
+        color: #808080;
+        font-family: 'Raleway', sans-serif;
     }
 /* -------------
   Global
@@ -89,29 +89,72 @@ ___________________________________________ */
 
       /*------------ Start Nav Styling ------------*/
      .head {
-       background-color: #a9a9a9; 
-     } 
+       background-color: #77ccff;
+       grid-column: 2 / span 2;
+       display: flex;
+       flex-direction: column;
+     }
       
-      .nav {
-        grid-column: 2 / span 2;
-    }
+     
    
-    nav ul {
+    /*nav ul {
         margin: 0;
         padding: 0;
         text-decoration: none;
+        text-align: center;
     }
 
     nav li {
        display: inline;
        margin: 2em;
+       
     }
 
     nav li a {
         text-decoration: none;
         color: #000;
+    }*/
+
+    .hamburger {
+       background-color: transparent;
+       border: 0;
+       color: #fff;
+       cursor: pointer;
+       font-size: 1.5em;
+       margin: 1em;
+       float: right;
+
     }
 
+    .hamburger:focus {
+       outline: none;
+    }
+
+    .nav-ul {
+       display: none;
+    }
+
+    .nav-ul.show {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      flex-direction: column;
+      list-style-type: none;
+      padding-bottom: 1em;
+      padding-left: 0;
+   }
+
+      
+      .nav-ul.show li a {
+         text-decoration: none;
+         color: #fff;
+      }
+
+      .seen {
+         display: none;
+      }
+
+   
       /*------------- End Site Header ------------*/
 
 /* _____________________________________
@@ -120,7 +163,7 @@ ___________________________________________ */
    _____________________________________ */
 
     .logo-area {
-        background-color: #a9a9a9;
+        background-color: #77ccff;
         position: relative;
         z-index: 1;
     }
@@ -128,6 +171,7 @@ ___________________________________________ */
     .logo-area h2 {
        grid-column: 2 / span 2;
        text-align: center;
+       color: #fff;
     }
 
     .logo-large {
@@ -136,8 +180,9 @@ ___________________________________________ */
 
     .logo-large img {
        display: block;
-       margin: 0 auto -20px;
+       margin: 0 auto -10%;
        z-index: 2;
+       max-width: 50%;
 
     }
 
@@ -147,7 +192,7 @@ ___________________________________________ */
    _____________________________________ */
 
    .team {
-      margin-top: 4em;
+      margin-top: 15%;
    }
    
    .two-items {
@@ -156,7 +201,7 @@ ___________________________________________ */
       grid-template-columns: repeat(2, 1fr);
       justify-content: space-evenly;
       row-gap: 0.5em;
-      column-gap: 0.5em;
+      column-gap: 1em;
    }
 
   /*.grid-item {
@@ -177,6 +222,8 @@ ___________________________________________ */
    
   .member p {
      text-align: center;
+     margin-top: 0.25em;
+     margin-bottom: 0.25em;
   }
 
   .right {
@@ -268,12 +315,13 @@ ___________________________________________ */
    _____________________________________ */
 
    footer {
-      background-color: #a9a9a9;
+      background-color: #004999;
       font-size: 14px;
    }
 
    .address {
       margin-left: 3em;
+      color: #fff;
    }
 
    footer nav {
@@ -285,7 +333,7 @@ ___________________________________________ */
       display: block;
       
       font-weight: 100;
-      color: black;
+      color: #fff;
       text-decoration: none;
    }
 
@@ -334,18 +382,155 @@ ___________________________________________ */
       max-width: 100%;
    }*/
 
+   /*.float {
+      float: right;
+   }*/
+
+   .header {
+      background-color: #77ccff;
+   }
+
+   .logo {
+      display: inline;
+   }
+
+   .logo img {
+      width: 30%;
+      margin: 1em;
+   }
+
    .portfolio-mosaic {
+      display: block;
+      margin-top: 4em;
+      margin-bottom: 4em;
+   }
+   
+   .portfolio-mosaic {
+      display: none;
+   }
+
+   .flex {
       grid-column: 2 / span 2;
       display: flex;
+      flex-direction: column;
       flex-wrap: wrap;
-      margin: 1.5em;
+      margin-top: 2em;
+      margin-bottom: 2em;
+    }
+
+    .small {
+       margin: auto;
+    }
+  
+   
+   @media screen and (min-width: 750px) {
+    
+      .head {
+         display: grid;
+      }
+      .nav-container {
+         grid-column: 2 / span 2;
+      }
+      .seen {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      text-decoration: none;
+      padding: 0;
+  
+    }
+
+    
+
+    .seen li {
+       margin: 1em 2em;
+       text-decoration: none;
+       list-style-type: none;
+       
+    }
+
+    .seen li a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .hamburger {
+       display: none;
+    }
+
+    .nav-ul.show {
+       display: none;
+    }
+
+    .nav-ul {
+       display: none;
+    }
+
+
+    /* PORTFOLIO PAGE */
+
+    .main2 > * {
+       display: grid;
+       grid-template-columns: 1fr repeat(2, minmax(auto, 30em)) 1fr;
+    }
+
+
+
+    .navbar {
+      grid-column: 2 / span 2;
+      grid-template-columns: 1fr;
+    }
+
+    .btn-container {
+       display: inline;
+    }
+
+    .logo img {
+       width: 22%;
+    }
+
+    .hidden {
+       display: none;
+    }
+
+    .nav-container {
+       float: right;
+    }
+
+    /*.row {
+       flex-direction: row;
+    }*/
+
 
    }
 
-   @media screen and (min-width: 650px) {
     
 
+   @media screen and (min-width: 960px) {
+      .portfolio {
+      display: grid;
+       grid-template-columns: 1fr repeat(2, minmax(auto, 30em)) 1fr;
+    }
 
+    .portfolio-mosaic {
+       grid-column: 2 / span 2;
+       display: flex;
+       flex-wrap: wrap;
+    }
 
+    .item {
+       display: block;
+      margin: 0.5em auto;
+   }
+
+   .item img {
+      max-width: 100%;
+      overflow: hidden;
+      text-align: center;
+   }
+
+   .small {
+      display: none;
+   }
 
    }
