@@ -14,7 +14,7 @@ let currentMember = '';
 const bioText = [
     `Heyya! My name is Ishpreet. I work as a Graphic Designer in this company. I love to design modern and engaging logos, business cards, illustrations, layouts, magazines, product packaging and more. I put all my efforts to make the clients satisfied with my creativity.`,
 
-    `tttttttttt`,
+    `hi, This is Sian Kim. I am currently working as an illustrator and visual designer. I want to visually express what my client imagines, and I want them to feel satisfied through my work.`,
 
     `hhhhhhhhh`,
 
