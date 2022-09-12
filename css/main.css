@@ -458,7 +458,7 @@ ___________________________________________ */
    .alex {background-position: 0px;}
    .sian {background-position:-100px;}
    .evica {background-position:-150px}
-   
+
     #photos {position:relative; width:1200px; transition: all 1.5s;}
 
     
@@ -479,7 +479,30 @@ ___________________________________________ */
       text-align: center;
    }
 
+/* PORTFOLIO FEATURE */
 
+    .hero-img img {
+       max-width: 100%;
+    }    
+
+    .desc {
+       margin: 3em;
+       text-align: center;
+    }
+
+    .examples {
+       margin-bottom: 1em;
+    }
+
+    .examples img {
+      max-width: 100%;
+   }
+
+   .parent, .child {
+      margin: 1em;
+   }
+
+  
     
    
    @media screen and (min-width: 750px) {
@@ -524,6 +547,14 @@ ___________________________________________ */
     .nav-ul {
        display: none;
     }
+
+    /* HOME PAGE */
+
+    .slider {
+       grid-column: 2 / span 2;
+       display: flex;
+    }
+      
 
 
     /* PORTFOLIO PAGE */
@@ -573,11 +604,36 @@ ___________________________________________ */
        flex-direction: column;
     }
 
+
+    /* PORTFOLIO FEATURE */
+
+    .hero-img {
+       grid-column: 2 / span 2;
+       margin: 2em auto;
+    }
+
+    .desc {
+      grid-column: 2 / span 2;
+    }
+
+    .examples {
+       grid-column: 2 / span 2;
+       grid-template-columns: 1fr;
+       display: flex;
+
+    }
+
+    .examples img {
+       width: 90%;
+    }
     
+
+    
+
    }
 
     
-
+   
    @media screen and (min-width: 960px) {
       .portfolio {
       display: grid;

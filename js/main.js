@@ -16,9 +16,13 @@ const bioText = [
 
     `hi, This is Sian Kim. I am currently working as an illustrator and visual designer. I want to visually express what my client imagines, and I want them to feel satisfied through my work.`,
 
-    `Hi, Evica strives to become a become a versatile designer capable of various styles and art mediums. Whether it is creating website, indie games, prints, animations and many other forms of digital media, she loves creating a product exuding her style while staying authentic to the message and goal of the task. In fact, she is passionate on projects that strikes the perfect balance between user experience and design. She is ready to take on anything with her pink pastel attitude.`,
 
-    `rrrrrrrrrr.`
+    `Hi! I'm Alex. And I am a developer of this team. I like front-end developing because I enjoy watching something new being born from a few lines of code. I find crushing bugs in code to be somewhat similar to solving riddles. And what can be better than a good riddle`,
+
+    
+    ``Hi, Evica strives to become a become a versatile designer capable of various styles and art mediums. Whether it is creating website, indie games, prints, animations and many other forms of digital media, she loves creating a product exuding her style while staying authentic to the message and goal of the task. In fact, she is passionate on projects that strikes the perfect balance between user experience and design. She is ready to take on anything with her pink pastel attitude.`,
+
+.`
 ]
 
 function animatePhotos() {
