@@ -421,7 +421,66 @@ ___________________________________________ */
     .small {
        margin: auto;
     }
-  
+
+    /* ABOUT US */
+
+    #image-container {
+       width: 300px;
+       height: 400px;
+       background-color: #004999;
+       margin:0 auto;
+	   overflow:hidden;
+    }
+
+    #navList {
+       padding: 0;
+       width: fit-content;
+       margin: 2em auto;
+    }
+
+    #navList li {
+      display: inline;
+      list-style-type:none;
+      padding:0px 10px;
+      cursor:pointer;
+   }
+
+   .iconContainer {
+      width:50px;
+      height:44px;
+      display:inline-block;
+      overflow:hidden;
+      background-image:url(../images/spripng.png);
+      background-repeat:no-repeat;
+   }
+
+   .ishpreet {background-position:-50px; }
+   .alex {background-position: 0px;}
+   .sian {background-position:-100px;}
+   .evica {background-position:-150px}
+   
+    #photos {position:relative; width:1200px; transition: all 1.5s;}
+
+    
+
+    #image-container img {
+       max-width: 100%;
+       float: left;
+    }
+    #bottomNav { margin-top: 30px;
+   display: inline; margin: auto;}
+
+
+    .slider {
+      margin: 3em;
+    }
+
+    #name {
+      text-align: center;
+   }
+
+
+    
    
    @media screen and (min-width: 750px) {
     
@@ -501,7 +560,20 @@ ___________________________________________ */
        flex-direction: row;
     }*/
 
+    /* ABOUT US */
 
+    .slider {
+      display: grid;
+      grid-template-columns: 1fr repeat(2, minmax(auto, 30em)) 1fr;
+    }
+
+    .containers {
+       grid-column: 2 / span 2;
+       display: flex;
+       flex-direction: column;
+    }
+
+    
    }
 
     
@@ -532,5 +604,7 @@ ___________________________________________ */
    .small {
       display: none;
    }
+
+
 
    }
