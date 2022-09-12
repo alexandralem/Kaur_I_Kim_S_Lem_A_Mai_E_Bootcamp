@@ -16,7 +16,7 @@ const bioText = [
 
     `tttttttttt`,
 
-    `hhhhhhhhh`,
+    `Hi! I'm Alex. And I am a developer of this team. I like front-end developing because I enjoy watching something new being born from a few lines of code. I find crushing bugs in code to be somewhat similar to solving riddles. And what can be better than a good riddle`,
 
     `rrrrrrrrrr.`
 ]
