@@ -1,88 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css" type="text/css">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/cb2dab820a.js" crossorigin="anonymous"></script>
 
-    <title>Contact Page</title>
+<head>
+    <meta charset="utf-8">
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento&display=swap" rel="stylesheet">
+    <!-- paragraph font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">     
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap" rel="stylesheet">
+
+
 </head>
+
 <body>
-    <main class="main2">
-        <h1 class="hidden">About Us</h1>
-        <header class="header">
-            <h2 class="hidden">Main Navigation</h2>
-            <div class="navbar">
-                <div class="btn-container">
-                <div class="logo"><img src="images/bootcamp_logo.svg" alt=""></div>
-                
-                <button class="hamburger" id="hamburger">
-                <i class="fas fa-bars"></i>
-                </button>
+    <header>
+        <div id="wrapper" class="padding_lr--0075">
+            <div class="inner bgImg_contact">
+                <figure class="logo">
+                    <img src="images/logo.svg" alt="logo">
+                </figure>
+                <nav class="menu">
+                    <input type="checkbox" id="menuToggle">
+                    <label for="menuToggle" class="menu-icon">
+                      
+                        <div class="sandwhich">
+                            <div class="line1"></div>
+                            <div class="line2"></div>
+                            <div class="line3"></div>
+                        </div>
+                    </label>
+                    <ul class=" clearfix">
+                        <li >
+                            <a href="index.html">home<span></span></a>
+                        </li>
+                        <li >
+                            <a href="about.html">about<span></span></a>
+                        </li>
+                        <li>
+                            <a href="portfolio.html">portfolio<span></span></a>
+                        </li>
+                        <li class="current">
+                            <a href="contact.html">contact<span></span></a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <div class="container_contact">
+                    <div class="leftSide_contact">
+                        <h2 class="color--white">
+                            Ready to start a project?
+                        </h2>
+                        <h1 class="color--white">
+                            START WITH OUR PROJECT MANAGER
+                        </h1>
+                        <div class="button_contact">
+                            <p class="ta--right">
+                                <a href="#" class="button_start">START</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-        
-                <div class="nav-container">
-                <ul class="nav-ul seen" id="nav-ul">
-                <li><a class="active" href="index.html">HOME</a></li>
-                <li><a href="index.html">ABOUT US</a></li>
-                <li><a href="portfolio.html">PORTFOLIO</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-                <ul class="seen" id="nav-ul">
-                    <li><a class="active" href="index.html">HOME</a></li>
-                    <li><a href="index.html">ABOUT US</a></li>
-                    <li><a href="portfolio.html">PORTFOLIO</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
+
             </div>
-        </div>    
-        </header>
-   
-        <section class="form">
-            <h2>Contact Us!</h2>
-            <div>
-                <form>      
-                    <input name="name" type="text" class="feedback-input" placeholder="Name" />   
-                    <input name="email" type="text" class="feedback-input" placeholder="Email" />
-                    <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-                    <input type="submit" value="SUBMIT"/>
-                  </form>
-            </div>
-        </section>
-    <footer>
-        <div class="two-items">
-            <div class="address">
-                <h3 class="hidden">Creare Office Address</h3>
-                <p>
-                    <span class="">Creare (Inc.)</span><br>
-                    2984 Merivale Road<br>
-                    Kanata, On, K2K 1L9.<br>
-                </p>
-                <h3 class="hidden">Creare Contact Information</h3>
-                <p>
-                    Toll Free:+1 905 659 7621<br>
-                    FAX:+1 613 599 3372<br>
-                </p>
-            </div>
-            <nav>
-                <div>
-                    <a href="#">Home</a>
-                    <a href="#">About Us</a>
-                    <a href="#">Portfolio</a>
-                    <a href="#">Contact</a>
-                </div> 
-            </nav>
         </div>
-        
-    </footer>
-    </main>
+    </header>
+    <main>
+        <div id="wrapper" class="padding_lr--0075">
+            <section class="section1_contact bgColor--blackBlue">
+                <div class="display--flex flex-direction jcontent--space-between">
+                    <div class="text_section1_contact flex-grow--1 ta--center">
+                        <h2 class="color--white">COME TO START</h2>
+
+                        <form class="contact-form  form-group">
+                            <div class="form-group">
+                                <input type="text" name="name" id="name" value="" class="name form-control"
+                                 placeholder="Name"   required="">
+                            </div>
     
-    <script src="js/main.js"></script>
+                            <div class="form-group">
+                                <input type="email" name="email" id="email" value="" class="email form-control"
+                                placeholder="Email"   required="">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="tel" name="telNumber" id="telNumber" value="" class="tel form-control"
+                                placeholder="Tel number"   required="">
+                            </div>
+    
+                            <div class="form-group">
+                                <textarea name="comment" id="contact-form-comment" rows="5"
+                                    class="textarea form-control" required="">Question</textarea>
+                            </div>
+
+                            <div class="button2_contact">
+                                <p class="ta--right">
+                                    <a href="#" class="button_submit">SUBMIT</a>
+                                </p>
+                            </div>
+                        </form>
+                        
+                        
+                    </div>
+                    <div class="map_section1_contact flex-shrink--0 order--n1">
+                      
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.663129843866!2d-81.21859774875061!3d43.00642747904649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882eed9a2bdfb9e5%3A0x60de2d45416671ed!2zMTEyOCBPeGZvcmQgU3QgRSwgTG9uZG9uLCBPTiBONVkgM0w45Yqg5ou_5aSn!5e0!3m2!1szh-CN!2sus!4v1631542027112!5m2!1szh-CN!2sus" class="img_map" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!--footer-->
+    <footer>
+        <div id="wrapper" class="padding_lr--0075">
+            <div class="container_footer bgColor--fdfdfd display--flex ac--center jc--space-evenly mobile480_column-reverse">
+                <div class="item_footer ta--center">
+                    <h3>Follow us</h3>
+                    <ul class="clearfix">
+                        <li>
+                            <a href="https://www.instagram.com" target="_blank" title="Instagram">
+                              <img src="images/Social_media_1.png" alt="instagram" class="img-Social_media">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com" target="_blank" title="Facebook">
+                                <img src="images/Social_media_2.png" alt="facebook" class="img-Social_media">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https:/twitter.com" target="_blank" title="Twitter">
+                                <img src="images/Social_media_3.png" alt="twitter" class="img-Social_media">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="item_footer ta--center">
+                    <h3>London Office</h3>
+                    <p>1128 Oxford St</p>
+                    <p>London, ON</p>
+                    <p>N6G1C1</p>
+                </div>
+                <div class="item_footer ta--center">
+                        <figure class="logo_footer">
+                            <img src="images/logo.svg" alt="logo">
+                        </figure>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
