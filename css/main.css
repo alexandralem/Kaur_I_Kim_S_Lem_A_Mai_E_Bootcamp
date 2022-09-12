@@ -606,5 +606,284 @@ ___________________________________________ */
    }
 
 
+   /* CSS FOR CONTACT PAGE */
+   .logo{
+      position: absolute;
+      top: 0.8%;
+      left: 10px;
+  }
+  
+  .logo img{
+      width: 130px;
+  }
+  
+  nav {
+      position: absolute;
+      margin-left: 200px;
+      top: 40px;
+      right: 35px;
+  }
+  
+  nav li {
+      display: inline-block;
+      font-size: 22px;
+      text-shadow: 1px 1px 10px rgb(0 218 255 / 50%), -1px 1px 10px rgb(0 218 255 / 50%), 1px -1px 10px rgb(0 218 255 / 50%), -1px -1px 10px rgb(0 218 255 / 50%);
+  }
+  
+  nav a {
+      font-size: 1.7rem;
+      color: #fff;
+      margin-top: 6px;
+      display: inline-block;
+      text-transform: uppercase;
+      font-family: 'Quattrocento Sans', sans-serif;
+  }
+  
+  nav li a span {
+      width: 0;
+      height: 2px;
+      margin-top: 4px;
+      background-color: #fff;
+      transition: .2s;
+      display: block;
+  }
+  
+  nav li:not(:last-child)::after {
+      display: inline-block;
+      content: "";
+      margin: -5px 20px 0 8px;
+  }
+  
+  nav li a:hover span {
+      width: 100%;
+  }
+  
+  /**/
+  
+  .sandwhich div {
+      width: 25px;
+      height: 3px;
+      background-color: red;
+      margin: 5px;
+      transition: all 0.5s ease;
+  }
+  
+  .current a {
+      color: #e86a69;
+      font-weight: 600;
+      text-shadow: 0 0 5px #fff;
+  }
+  
+  .current a span {
+      background-color: transparent;
+  }
+  
+  .clearfix:after {
+      content: " ";
+      display: block;
+      clear: both;
+  }
+  
+  #menuToggle {
+      display: none;
+  }
+  
+  .menu-icon {
+      display: none;
+  }
+  
+  .leftSide_home{
+      width: 60%;
+  }
+  
+  .rightSide_home{
+      width: 32%;
+      margin-top: 13.3%;
+      font-family: 'Quattrocento', serif;
+  }
+  
+  .rightSide_home h1{
+      word-break:break-all;
+      overflow:hidden;
+      font-size: 3.5rem;
+      line-height: 1.1;
+      margin-left: 1rem;   
+  }
+  
+  .rightSide_home p{
+      margin-top: 2rem;
+      font-size: 2.6rem;
+      font-weight: 300;
+      margin-left: 1rem;
+  }
+  
+  .color--4f5b6f{
+      color: #37455d;
+  }
+/* header */
+.bgImg_contact {
+   box-sizing: border-box;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: top;
+   background-image: url(../images/banner.png);
+   height: 64vh;
+   position: relative;
+}
+
+.container_contact{
+   padding: 17% 8% 4% 5%;
+   font-family: 'Oswald', sans-serif;
+}
+
+.container_contact h2{
+   font-size: 3.1rem;
+}
+
+.container_contact h1{
+   font-size: 3.5rem;
+}
+
+.button_contact{
+   padding: 5rem 14% 0 0;
+}
+
+.button_start,.button_submit{
+   border: none;
+   background: #37455c;
+   padding: 7px 68px;
+   margin-top: 20px;
+   transition-duration: 0.6s;
+   color: #fff;
+   font-weight: 700;
+   font-size: 1.2rem;
+   font-family: 'Oswald', sans-serif;
+}
+
+/* main */
+.text_section1_contact,.map_section1_contact{
+   flex: 1;
+}
+
+.text_section1_contact{
+   padding: 8% 5% 2%;
+}
+
+.text_section1_contact h2{
+   margin-bottom: 2rem;
+}
+
+/* form */
+.form-group {
+   padding-bottom: 8px;
+   position: relative;
+   /* margin-bottom: 15px; */
+}
+
+label {
+   margin-bottom: .25em;
+   float: none;
+   font-weight: 700;
+   display: block;
+}
+
+input[type=text], input[type=email], input[type=tel] {
+   box-sizing: border-box;
+   margin-bottom: 1.5em;
+   width: 100%;
+   padding: 14px 7px;
+   background-color: transparent;
+   border: 2px solid #e86a69;
+   outline: none;
+   font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.form-control::-webkit-input-placeholder {
+   color: #fff;
+   font-size: 22px;
+}
+
+.form-control:-moz-placeholder {
+   color: #fff;
+   font-size: 22px;
+}
+
+.form-control:-ms-input-placeholder {
+   color: #fff;
+   font-size: 22px;
+}
+
+textarea[rows] {
+   height: auto;
+}
+
+textarea {
+   box-sizing: border-box;
+   float: none;
+   /* height: 200px; */
+   margin-bottom: 1.5em;
+   width: 100%;
+   padding: 7px;
+   font-size: 22px;
+   color: #fff;
+   background-color: transparent;
+   border: 2px solid #e86a69;
+   outline: none;
+   font-family: 'Quattrocento Sans', sans-serif;
+}
+
+textarea {
+   max-width: 100%;
+}
+
+.button2_contact{
+   padding-top: 2rem;
+}
+
+
+.img_map{
+   width: 100%;
+   min-height: 600px;
+}
+
+
+/* FOOTER */
+.bgColor--fdfdfd{
+   background-color: #fdfdfd;
+   padding: 1.5rem 0 1.5rem;
+}
+
+.item_footer{
+   width: 31%;
+   font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.item_footer h3 {
+   font-size: 1.35rem;
+   margin-bottom: .8rem;
+}
+
+.item_footer li:not(:last-child)::after {
+   display: inline-block;
+   content: "";
+   margin: -5px 6px 0 8px;
+}
+
+.item_footer li {
+   display: inline-block;
+}
+
+.logo_footer img{
+  width: 40%;
+  margin-top: -5%;
+
+}
+
+.logo_footer{
+   width: 80%;
+   margin-top: -50%;
+   margin: 0 auto;
+}
+
 
    }
