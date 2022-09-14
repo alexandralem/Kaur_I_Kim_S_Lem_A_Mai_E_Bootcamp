@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="css/main.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;600&family=Raleway:ital,wght@0,300;0,500;0,700;1,500&display=swap" rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/cb2dab820a.js" crossorigin="anonymous"></script>
 
     <title>Contact Page</title>
@@ -17,7 +18,7 @@
     <main class="main2">
         <h1 class="hidden">About Us</h1>
         <header class="header">
-            <h2 class="hidden">Main Navigation</h2>
+            <h2 class="hidden">Header</h2>
             <div class="navbar">
                 <div class="btn-container">
                 <div class="logo"><img src="images/bootcamp_logo.svg" alt=""></div>
@@ -30,23 +31,36 @@
                 <div class="nav-container">
                 <ul class="nav-ul seen" id="nav-ul">
                 <li><a class="active" href="index.html">HOME</a></li>
-                <li><a href="index.html">ABOUT US</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
                 <li><a href="portfolio.html">PORTFOLIO</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
                 </ul>
                 <ul class="seen" id="nav-ul">
                     <li><a class="active" href="index.html">HOME</a></li>
-                    <li><a href="index.html">ABOUT US</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
                     <li><a href="portfolio.html">PORTFOLIO</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </div>
-        </div>    
+        </div>      
         </header>
+        <section>
+            <h2 class="hidden">Banner</h2>
+            <div class="backgrnd-img">
+                <img src="images/banner.png" alt="">
+            </div>
+        </section>
    
         <section class="form">
-            <h2>Contact Us!</h2>
-            <div>
+            <h2 class="hidden">Contact Us Form</h2>
+            <div class="question">
+                <h3 class="ready">
+                    Ready to start a project?
+                </h3>
+                <h3 class="start">
+                    START WITH OUR PROJECT MANAGER
+                </h3>
+
                 <form>      
                     <input name="name" type="text" class="feedback-input" placeholder="Name" />   
                     <input name="email" type="text" class="feedback-input" placeholder="Email" />
@@ -55,32 +69,44 @@
                   </form>
             </div>
         </section>
-    <footer>
-        <div class="two-items">
-            <div class="address">
-                <h3 class="hidden">Creare Office Address</h3>
-                <p>
-                    <span class="">Creare (Inc.)</span><br>
-                    2984 Merivale Road<br>
-                    Kanata, On, K2K 1L9.<br>
-                </p>
-                <h3 class="hidden">Creare Contact Information</h3>
-                <p>
-                    Toll Free:+1 905 659 7621<br>
-                    FAX:+1 613 599 3372<br>
-                </p>
-            </div>
-            <nav>
-                <div>
-                    <a href="#">Home</a>
-                    <a href="#">About Us</a>
-                    <a href="#">Portfolio</a>
-                    <a href="#">Contact</a>
-                </div> 
-            </nav>
-        </div>
+        <section>
+            <h2 class="hidden">Map</h2>
+            <div class="map"> <div class="map_section1_contact flex-shrink--0 order--n1">
+                      
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.663129843866!2d-81.21859774875061!3d43.00642747904649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882eed9a2bdfb9e5%3A0x60de2d45416671ed!2zMTEyOCBPeGZvcmQgU3QgRSwgTG9uZG9uLCBPTiBONVkgM0w45Yqg5ou_5aSn!5e0!3m2!1szh-CN!2sus!4v1631542027112!5m2!1szh-CN!2sus" class="img_map" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div></div>
+
+           
+        </section>
         
-    </footer>
+        <footer>
+            <section class="two-items">
+                <h2 class="hidden">Creare Footer</h2>
+                <div class="address">
+                    <h3 class="hidden">Creare Office Address</h3>
+                    <p>
+                        <span class="">Creare (Inc.)</span><br>
+                        2984 Merivale Road<br>
+                        Kanata, On, K2K 1L9.<br>
+                    </p>
+                    <h3 class="hidden">Creare Contact Information</h3>
+                    <p>
+                        Toll Free:+1 905 659 7621<br>
+                        FAX:+1 613 599 3372<br>
+                    </p>
+                </div>
+                <nav>
+                    <h2 class="hidden">Footer Navigation</h2>
+                    <div>
+                        <a href="#">Home</a>
+                        <a href="#">About Us</a>
+                        <a href="#">Portfolio</a>
+                        <a href="#">Contact</a>
+                    </div> 
+                </nav>
+
+            </section>
+        </footer>
     </main>
     
     <script src="js/main.js"></script>
