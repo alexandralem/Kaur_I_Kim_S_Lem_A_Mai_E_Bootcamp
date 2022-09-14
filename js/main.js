@@ -15,7 +15,7 @@ let currentMember = '';
 const bioText = [
     `Heyya! My name is Ishpreet. I work as a Graphic Designer in this company. I love to design modern and engaging logos, business cards, illustrations, layouts, magazines, product packaging and more. I put all my efforts to make the clients satisfied with my creativity.`,
 
-    ``,
+    `hi, This is Sian Kim. I am currently working as an illustrator and visual designer. I want to visually express what my client imagines, and I want them to feel satisfied through my work.`,
 
     `Hi! I'm Alex. And I am a developer of this team. I like front-end developing because I enjoy watching something new being born from a few lines of code. I find crushing bugs in code to be somewhat similar to solving riddles. And what can be better than a good riddle`,
 
@@ -41,6 +41,8 @@ function animatePhotos() {
 
   icon.forEach(icon => icon.addEventListener('click', animatePhotos));
 
+
   
 
 })();
+
